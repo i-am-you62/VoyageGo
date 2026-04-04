@@ -5,6 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="queries.css">
   <title>Voyage Go</title>
 </head>
 
@@ -40,7 +41,7 @@
         </ul>
       </div>
       <div class="hero-img">
-        <img src="images/download.png" alt="" loading="lazy">
+        <img src="images/hero-img.png" alt="" loading="lazy">
       </div>
     </div>
   </section>
@@ -78,7 +79,7 @@
       </div>
     </div>
     <div class="aboutvid">
-      <video src="video/web-vid.mp4" controls width="1000" type="video/mp4" preload="metadata"></video>
+      <video src="video/web-vid.mp4" controls type="video/mp4" preload="metadata"></video>
     </div>
   </section>
   <section class="features">
@@ -101,21 +102,21 @@
           <h2><i class="fa-solid fa-hotel" style="color: rgb(99, 230, 190);"></i> Finds Hotel</h2>
           <div class="city">
             <label for="city">city or Hotel Name</label>
-            <input class="city" type="text" placeholder="📌 Hana Yuki Hotel">
+            <input class="city" id="city" type="text" placeholder="📌 Hana Yuki Hotel">
           </div>
           <div class="check-duration-row">
             <div class="check">
               <label for="check">Check In</label>
-              <input class="check" type="text" placeholder="🗓️ Sun, 11 September 2024">
+              <input class="check" id="check" type="text" placeholder="🗓️ Sun, 11 September 2024">
             </div>
             <div class="duration">
               <label for="duration">Duration</label>
-              <input class="duration" type="text" placeholder="🌙 3 Night">
+              <input class="duration" id="duration" type="text" placeholder="🌙 3 Night">
             </div>
           </div>
           <div class="guest">
             <label for="guest">Guests</label>
-            <input class="guest" type="text" placeholder="🏨 3 adult, 1 child">
+            <input class="guest" id="guest" type="text" placeholder="🏨 3 adult, 1 child">
           </div>
           <button type="submit" class="search-hotel-btn">Search Hotel</button>
         </form>
