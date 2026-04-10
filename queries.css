@@ -102,11 +102,11 @@
 
   .up-feat,
   .down-feat {
-    gap: 40px;
+    gap: 35px;
   }
 
   .feat-1 {
-    max-width: 520px;
+    max-width: 600px;
   }
 
   .hotel-card {
