@@ -4,6 +4,7 @@
 .navbar {
   height: 50px;
 }
+
 .hero-sec {
   height: auto;
 }
@@ -13,23 +14,29 @@
   .hero-content h1 {
     font-size: 3.2rem;
   }
+
   .hero-content p {
     font-size: 1.5rem;
   }
+
   .aboutvid video {
     width: 100%;
     max-width: 100%;
   }
+
   .story {
     width: 100%;
     padding: 20px 30px;
   }
+
   .tabs {
     padding: 24px 40px;
   }
+
   .hotels {
     gap: 16px;
   }
+
   .rec-card {
     width: 320px;
   }
@@ -43,12 +50,15 @@
     gap: 12px;
     padding: 8px 16px;
   }
+
   .nav-ul {
     display: none;
   }
+
   .logo {
     max-width: 220px;
   }
+
   .nav-but {
     padding: 8px 16px;
     margin-left: auto;
@@ -57,18 +67,22 @@
   .hero-content h1 {
     font-size: 2.6rem;
   }
+
   .hero-content p {
     font-size: 1.2rem;
   }
+
   .hero-content ul {
     gap: 16px;
     flex-wrap: wrap;
   }
+
   .hero-content li,
   .hero-content a {
     width: 180px;
     max-width: 180px;
   }
+
   .hero-img img {
     width: 100%;
     height: auto;
@@ -77,7 +91,11 @@
 
   .nums {
     gap: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
+
   .about p {
     font-size: 1.2rem;
   }
@@ -86,12 +104,15 @@
   .down-feat {
     gap: 40px;
   }
+
   .feat-1 {
     max-width: 520px;
   }
+
   .hotel-card {
     max-width: 460px;
   }
+
   .check-duration-row {
     gap: 12px;
   }
@@ -99,6 +120,7 @@
   .pay {
     padding: 20px;
   }
+
   .payment img {
     width: 80px;
   }
@@ -106,10 +128,12 @@
   .recomend {
     padding: 40px 24px;
   }
+
   .hotels {
     gap: 16px;
     justify-content: center;
   }
+
   .rec-card {
     width: 300px;
   }
@@ -119,23 +143,30 @@
     gap: 12px;
     flex-wrap: wrap;
   }
+
   .testimony-head {
     margin-bottom: 12px;
   }
+
   .test-ctn {
     gap: 20px;
   }
+
   .test-text {
     width: 100%;
     max-width: 420px;
     /* spacing between elements */
   }
+
   .test-text p {
     margin: 0 0 12px 0;
   }
+
   .test-text h4:not(.vlog) {
-    margin: 12px 0 6px 0; /* name spacing */
+    margin: 12px 0 6px 0;
+    /* name spacing */
   }
+
   .test-text .vlog {
     margin-top: 4px;
   }
@@ -144,9 +175,11 @@
     gap: 40px;
     padding: 50px 40px;
   }
+
   .right-foot {
     gap: 40px;
   }
+
   .copy {
     padding: 20px 40px;
   }
@@ -158,6 +191,7 @@
     height: auto;
     padding: 16px;
   }
+
   .navbar {
     flex-direction: row;
     justify-content: space-between;
@@ -165,7 +199,11 @@
     border-radius: 20px;
     gap: 0;
   }
-  .nav-ul { display: none; }
+
+  .nav-ul {
+    display: none;
+  }
+
   .nav-but {
     width: auto;
     max-width: none;
@@ -174,12 +212,15 @@
   .hero-content h1 {
     font-size: 2.2rem;
   }
+
   .hero-content p {
     font-size: 1rem;
   }
+
   .hero-content ul {
     gap: 12px;
   }
+
   .hero-content li,
   .hero-content a {
     width: 160px;
@@ -193,13 +234,14 @@
     gap: 16px;
     padding: 0 12px 12px;
   }
+
   .spon-lg {
     width: 90px;
     margin-left: 0;
   }
 
   .nums {
-    flex-direction: column;
+    flex-direction: row;
     gap: 1.2rem;
   }
 
@@ -210,38 +252,86 @@
     gap: 24px;
     margin-bottom: 30px;
   }
+
   .feat-1 {
     max-width: 100%;
+    padding: 24px 20px;
+    border-radius: 16px;
   }
+
+  .feat-1 h3 {
+    font-size: 1.05rem;
+  }
+
+  .feat-1 .feat-img img {
+    width: 100%;
+    height: auto;
+    max-width: 520px;
+  }
+
   .hotel-card {
     max-width: 100%;
+    padding: 18px;
+    border-radius: 14px;
   }
+
   .check-duration-row {
     flex-direction: column;
+  }
+
+  .hotel-card h2 {
+    font-size: 1rem;
+  }
+
+  .hotel-card label {
+    font-size: 0.75rem;
+  }
+
+  .hotel-card input {
+    font-size: 0.9rem;
   }
 
   .payment {
     padding: 12px 16px;
   }
 
+  .payment img {
+    width: 80px;
+  }
+
+  .pay {
+    padding: 18px 20px;
+    border-radius: 16px;
+  }
+
+  .coupon {
+    padding: 18px;
+    border-radius: 16px;
+  }
+
   .hotels {
     flex-direction: column;
     align-items: stretch;
   }
+
   .rec-card {
     width: 100%;
   }
+
   .hotel-img img {
     height: 220px;
   }
+
   .hotel-price span {
     font-size: 2.2rem;
   }
+
   .hotel-price {
     flex-direction: column;
     align-items: stretch;
     gap: 12px;
   }
+
   .hotel-price button {
     display: block;
     width: 100%;
@@ -250,30 +340,38 @@
   .tabs {
     padding: 16px 20px;
   }
+
   .story {
     padding: 16px 20px;
   }
+
   .testimony-head {
     margin-bottom: 14px;
   }
+
   .test-ctn {
     flex-direction: column;
     align-items: stretch;
   }
+
   .test-text {
     text-align: center;
     margin: 0 auto;
     max-width: 520px;
   }
+
   .test-text p {
     margin: 0 0 14px 0;
   }
+
   .test-text h4:not(.vlog) {
     margin: 14px 0 8px 0;
   }
+
   .test-text .vlog {
     margin-top: 6px;
   }
+
   .test-vid video {
     width: 100% !important;
     height: auto;
@@ -285,47 +383,59 @@
     gap: 30px;
     padding: 40px 24px;
   }
+
   .left-foot {
     align-items: center;
     text-align: center;
   }
+
   .left-foot p {
     margin: 0 auto;
   }
+
   .social {
     justify-content: center;
   }
+
   .right-foot {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center; /* center items on each row */
+    justify-content: center;
+    /* center items on each row */
     align-items: flex-start;
     gap: 20px;
     width: 100%;
   }
-  .right-foot > div {
-    flex: 1 1 240px; /* side-by-side; wraps when narrow */
+
+  .right-foot>div {
+    flex: 1 1 240px;
+    /* side-by-side; wraps when narrow */
     max-width: 320px;
     min-width: 180px;
-    text-align: center; /* center wrapped line content */
+    text-align: center;
+    /* center wrapped line content */
     background: rgba(255, 255, 255, 0.06);
     padding: 16px 18px;
     border-radius: 14px;
     box-shadow: 0 6px 18px rgba(0, 0, 0, 0.12);
     transition: transform 0.2s ease, box-shadow 0.3s ease, background-color 0.3s ease;
   }
-  .right-foot > div:hover {
+
+  .right-foot>div:hover {
     transform: translateY(-3px);
     box-shadow: 0 12px 28px rgba(0, 0, 0, 0.16);
     background: rgba(255, 255, 255, 0.1);
   }
+
   .right-foot h4 {
     margin-bottom: 10px;
   }
+
   .right-foot ul {
     gap: 10px;
   }
+
   .copy {
     flex-direction: column;
     gap: 8px;
@@ -339,10 +449,15 @@
   body {
     padding: 0 12px;
   }
-  .nav-ul { display: none; }
+
+  .nav-ul {
+    display: none;
+  }
+
   .logo {
     max-width: 180px;
   }
+
   .nav-but {
     max-width: 100%;
   }
@@ -350,9 +465,11 @@
   .hero-content h1 {
     font-size: 1.9rem;
   }
+
   .hero-content p {
     font-size: 0.95rem;
   }
+
   .hero-content li,
   .hero-content a {
     width: 100%;
@@ -362,6 +479,7 @@
   .about h3 {
     font-size: 1.6rem;
   }
+
   .about p {
     font-size: 1rem;
   }
@@ -373,9 +491,59 @@
     font-size: 1.25rem;
   }
 
+  .up-feat,
+  .down-feat {
+    gap: 20px;
+  }
+
+  .feat-1 {
+    padding: 20px 16px;
+    border-radius: 14px;
+  }
+
+  .feat-1 h3 {
+    font-size: 1rem;
+  }
+
+  .feat-1 .feat-img img {
+    max-width: 460px;
+  }
+
+  .hotel-card {
+    padding: 16px;
+    border-radius: 14px;
+  }
+
+  .hotel-card h2 {
+    font-size: 0.95rem;
+  }
+
+  .hotel-card label {
+    font-size: 0.72rem;
+  }
+
+  .hotel-card input {
+    font-size: 0.88rem;
+  }
+
+  .pay {
+    padding: 16px;
+    border-radius: 14px;
+  }
+
+  .payment img {
+    width: 72px;
+  }
+
+  .coupon {
+    padding: 16px;
+    border-radius: 14px;
+  }
+
   .hotel-img img {
     height: 200px;
   }
+
   .hotel-price button {
     display: block;
     width: 100%;
@@ -388,21 +556,26 @@
   .left-foot .logo img {
     width: 160px;
   }
+
   .social {
     gap: 24px;
     justify-content: center;
   }
+
   .foot {
     padding: 32px 16px;
     gap: 24px;
   }
+
   .left-foot {
     align-items: center;
     text-align: center;
   }
+
   .left-foot p {
     margin: 0 auto;
   }
+
   .right-foot {
     display: flex;
     flex-direction: row;
@@ -410,7 +583,8 @@
     justify-content: center;
     gap: 16px;
   }
-  .right-foot > div {
+
+  .right-foot>div {
     flex: 1 1 220px;
     max-width: 300px;
     min-width: 160px;
@@ -421,16 +595,196 @@
     box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
     transition: transform 0.2s ease, box-shadow 0.3s ease, background-color 0.3s ease;
   }
-  .right-foot > div:hover {
+
+  .right-foot>div:hover {
     transform: translateY(-2px);
     box-shadow: 0 10px 24px rgba(0, 0, 0, 0.16);
     background: rgba(255, 255, 255, 0.1);
   }
+
   .right-foot h4 {
     margin-bottom: 8px;
   }
+
   .right-foot ul {
     gap: 8px;
   }
 }
 
+/* Phones in portrait mode - tighter spacing and single-column where needed */
+@media (max-width: 480px) and (orientation: portrait) {
+  body {
+    padding: 0 10px;
+  }
+
+  .navbar {
+    padding: 8px 12px;
+    border-radius: 20px;
+    height: 50px;
+  }
+
+  .logo {
+    max-width: 150px;
+  }
+
+  .nav-but {
+    width: 100%;
+    max-width: 220px;
+  }
+
+  .hero-sec {
+    padding: 14px 10px;
+  }
+
+  .hero-content h1 {
+    font-size: 1.7rem;
+    line-height: 1.2;
+  }
+
+  .hero-content p {
+    font-size: 0.9rem;
+  }
+
+  .hero-content ul {
+    gap: 8px;
+  }
+
+  .hero-content li,
+  .hero-content a {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  .hero-img img {
+    width: 100%;
+    height: auto;
+    max-width: 420px;
+    margin-top: 8px;
+  }
+
+  .about p {
+    font-size: 0.95rem;
+  }
+
+  .aboutvid video {
+    width: 100%;
+    height: auto;
+  }
+
+  .hotel-img img {
+    height: 180px;
+  }
+
+  .hotel-price {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+  }
+
+  .hotel-price button {
+    display: block;
+    width: 100%;
+  }
+
+  .tabs {
+    padding: 12px 14px;
+    justify-content: center;
+    gap: 8px;
+    flex-wrap: wrap;
+  }
+
+  .tabs button {
+    font-size: 0.95rem;
+    padding: 8px 14px;
+  }
+
+  .story {
+    padding: 12px 16px;
+  }
+
+  .foot {
+    padding: 24px 12px;
+    gap: 20px;
+  }
+
+  .left-foot {
+    align-items: center;
+    text-align: center;
+  }
+
+  .left-foot p {
+    margin: 0 auto 6px;
+  }
+
+  .social {
+    justify-content: center;
+    gap: 18px;
+  }
+
+  .up-feat,
+  .down-feat {
+    gap: 16px;
+  }
+
+  .feat-1 {
+    padding: 16px 12px;
+    border-radius: 12px;
+  }
+
+  .feat-1 h3 {
+    font-size: 0.95rem;
+  }
+
+  .feat-1 .feat-img img {
+    max-width: 400px;
+  }
+
+  .hotel-card {
+    padding: 14px;
+    border-radius: 12px;
+  }
+
+  .hotel-card h2 {
+    font-size: 0.9rem;
+  }
+
+  .hotel-card label {
+    font-size: 0.7rem;
+  }
+
+  .hotel-card input {
+    font-size: 0.86rem;
+  }
+
+  .pay {
+    padding: 14px;
+    border-radius: 12px;
+  }
+
+  .payment img {
+    width: 64px;
+  }
+
+  .coupon {
+    padding: 14px;
+    border-radius: 12px;
+  }
+
+  .right-foot {
+    justify-content: center;
+    gap: 14px;
+  }
+
+  .right-foot>div {
+    flex: 1 1 100%;
+    max-width: 100%;
+    min-width: 0;
+    text-align: center;
+    padding: 12px;
+  }
+
+  .copy {
+    padding: 12px 16px;
+    gap: 6px;
+  }
+}

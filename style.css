@@ -141,7 +141,9 @@ a {
 .sponsor {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
+  max-width: 1200px;
 }
 
 .spon-lg {
@@ -228,6 +230,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  max-width: 1200px;
 }
 
 .up-feat,
@@ -439,6 +442,7 @@ a {
   padding: 50px;
   margin-bottom: 70px;
   background-color: #f9f9f9;
+  max-width: 1200px;
 }
 
 .recomend-head {
@@ -550,6 +554,7 @@ a {
 
 .faq {
   padding: 30px;
+  max-width: 1200px;
 }
 
 .faq-item {
@@ -588,6 +593,7 @@ a {
   margin-top: 50px;
   margin-bottom: 50px;
   border-top: 1px solid #e0e0e0;
+  max-width: 1200px;
 }
 
 .test-head {
@@ -665,12 +671,15 @@ a {
 .testimony-head h4 {
   margin: 8px 0 16px;
 }
+
 .test-text p {
   margin: 0 0 12px;
 }
+
 .test-text h4 {
   margin: 8px 0 0;
 }
+
 .test-text .vlog {
   margin-top: 4px;
 }
@@ -687,7 +696,7 @@ footer {
   align-items: flex-start;
   gap: 70px;
   padding: 70px;
-  width: 100%;
+  max-width: 1200px;
   border-bottom: 1px solid var(--bgtint);
 }
 
